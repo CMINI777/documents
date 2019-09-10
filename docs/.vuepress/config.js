@@ -5,6 +5,7 @@ module.exports = {
     port: '7777',
 	base: '/documents/',
     head: [
+		['meta', { name: 'keywords', content: '迷你中华,爱我中华,minichn,cmini777' }],
         ['link', {rel: 'icon', href: '/img/favicon.ico'}],
 		['link', {rel: 'stylesheet', href: '/css/style.css'}]
     ],
