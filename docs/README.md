@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-actionText: 跟我来吧 →
+actionText: 行动吧 →
 actionLink: /guide/
 features:
 - title: 知行
@@ -35,6 +35,8 @@ vuepress build
 ::: danger
 
 ## 关于~~文档博客~~笔记
+
+站在巨人的肩膀上。
 
 这根本不是什么文档博客，仅仅是一个个人笔记而已。
 
