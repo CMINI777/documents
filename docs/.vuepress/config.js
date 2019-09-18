@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'MiniCHN',
+    title: 'CMINI777',
     description: '迷你中华',
     dest: './dist',
     port: '7777',
@@ -16,7 +16,7 @@ module.exports = {
         nav: require("./nav.js"),
         sidebar: require("./sidebar.js"),
         sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {
