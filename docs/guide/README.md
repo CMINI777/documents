@@ -1,68 +1,30 @@
-![1](/documents/img/bg.jpg)
 
-<h1 align="center">爱我中华</h1>
-<p align="center">填词：乔羽&nbsp&nbsp&nbsp&nbsp谱曲：徐沛东</p>
-<p align="center">爱我中华</p>
-<p align="center">爱我中华</p>
-<p align="center">爱我中华</p>
-<p align="center">赛罗赛罗赛罗赛罗赛罗赛罗</p>
-<p align="center">嘿……</p>
-<p align="center">五十六个星座五十六支花</p>
-<p align="center">五十六族兄弟姐妹是一家</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华爱我中华爱我中华</p>
-<p align="center">嘿罗嘿罗嘿罗嘿罗嘿罗嘿罗</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六个星座五十六支花</p>
-<p align="center">五十六族兄弟姐妹是一家</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华爱我中华爱我中华</p>
-<p align="center">爱我中华</p>
-<p align="center">健儿奋起步伐</p>
-<p align="center">爱我中华</p>
-<p align="center">建设我们的国家</p>
-<p align="center">爱我中华</p>
-<p align="center">中华英姿焕发</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六族兄弟姐妹</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华</p>
-<p align="center">赛罗赛罗赛罗赛罗赛罗赛罗</p>
-<p align="center">（五十六个星座五十六支花</p>
-<p align="center">五十六族兄弟姐妹是一家</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华爱我中华）</p>
-<p align="center">爱我中华</p>
-<p align="center">嘿罗嘿罗嘿罗嘿罗嘿罗嘿罗</p>
-<p align="center">爱我中华</p>
-<p align="center">爱我中华</p>
-<p align="center">健儿奋起步伐</p>
-<p align="center">爱我中华</p>
-<p align="center">建设我们的国家</p>
-<p align="center">爱我中华</p>
-<p align="center">中华雄姿英发</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六族兄弟姐妹</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六个星座五十六支花</p>
-<p align="center">五十六族兄弟姐妹是一家</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华爱我中华爱我中华</p>
-<p align="center">嘿罗嘿罗嘿罗嘿罗嘿罗嘿罗</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六个星座五十六支花</p>
-<p align="center">五十六族兄弟姐妹是一家</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华爱我中华爱我中华</p>
-<p align="center">爱我中华</p>
-<p align="center">健儿奋起步伐</p>
-<p align="center">爱我中华</p>
-<p align="center">建设我们的国家</p>
-<p align="center">爱我中华</p>
-<p align="center">中华雄姿英发</p>
-<p align="center">爱我中华</p>
-<p align="center">五十六族兄弟姐妹</p>
-<p align="center">五十六种语言汇成一句话</p>
-<p align="center">爱我中华</p>
-<p align="center">嘿</p>
+## 前言
+
+之前使用 hexo 搭建博客，渐渐感到视觉疲劳了，然后就想着更换样式，
+
+这时刚好遇见VuePress，赶快上手吧！
+
+:tada: [原博客地址](https://cmini777.gitee.io/) :tada:
+
+
+## 写文档博客的目的 ? <Badge text="目的" type="warn"/>
+
+坚持分享、利他，学会站在他人的角度考虑问题。
+
+VuePress 提供了一个良好的写文档博客的环境，侧边栏的展示及快速跳转，可以将知识进行连接，
+
+这样更有利于代码以及文档博客的呈现。
+
+
+## 写文档博客的想法
+
+经历过朋友的闭源、欺骗、尔虞我诈，我要做到出淤泥而不染，要不忘初心，要坚持开源，
+
+要坚持分享、利他，我更应该学会站在他人的角度考虑问题，求实求真，大气大为。
+
+互联网行业发展如此之快是你我不能想象的，我们唯一能做的就是站在巨人的肩膀上，不断学习、超越，
+
+引领新潮流，创造新时代！
+
+
