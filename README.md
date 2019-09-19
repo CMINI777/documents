@@ -1,6 +1,10 @@
+<h1 align="center">documents blog</h1>
+
+<div align="center">
+
 [![GitHub issues](https://img.shields.io/github/issues/CMINI777/documents)](https://github.com/CMINI777/documents/issues) [![GitHub forks](https://img.shields.io/github/forks/CMINI777/documents)](https://github.com/CMINI777/documents/network) [![GitHub stars](https://img.shields.io/github/stars/CMINI777/documents)](https://github.com/CMINI777/documents/stargazers) [![GitHub license](https://img.shields.io/github/license/CMINI777/documents)](https://github.com/CMINI777/documents/blob/master/LICENSE)
 
-# vuepress-blog-documents
+</div>
 
 ## Description
 Welcome to the [CMINI777](https://cmini777.github.io/documents/)
