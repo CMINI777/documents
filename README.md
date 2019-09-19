@@ -1,4 +1,4 @@
-<h1 align="center">documents blog</h1>
+<h1 align="center">Documents Blog</h1>
 
 <div align="center">
 
