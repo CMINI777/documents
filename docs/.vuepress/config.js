@@ -12,6 +12,11 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
+	locales: {
+		'/': {
+		  lang: 'zh-CN'
+		}
+	},
     themeConfig: {
         nav: require("./nav.js"),
         sidebar: require("./sidebar.js"),
@@ -24,7 +29,10 @@ module.exports = {
                 buttonText: '更新'
             }
         },
+		repo: 'CMINI777/documents',
+		repoLabel: '查看源码',
+		docsDir: 'docs',
         editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页 ！'
+        editLinkText: '编辑文档！'
     }
 }

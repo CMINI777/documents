@@ -1,204 +1,24 @@
-<h1 align="center">博客文档 (vuepress-blog)</h1>
+<h1 align="center">vuepress-blog-documents</h1>
+<p align="center">[![GitHub issues](https://img.shields.io/github/issues/CMINI777/documents)](https://github.com/CMINI777/documents/issues)
+[![GitHub forks](https://img.shields.io/github/forks/CMINI777/documents)](https://github.com/CMINI777/documents/network)[![GitHub stars](https://img.shields.io/github/stars/CMINI777/documents)](https://github.com/CMINI777/documents/stargazers)
+[![GitHub license](https://img.shields.io/github/license/CMINI777/documents)](https://github.com/CMINI777/documents/blob/master/LICENSE)[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FCMINI777%2Fdocuments)
+</p>
 
-## 欢迎访问 [https://cmini777.github.io/documents/](https://cmini777.github.io/documents/)
+## Description
+Welcome to the [cmini777](https://cmini777.github.io/documents/)
 
 ## Usage
----
 
-一、 安装初始化
+```bash
+# 1. clone
+git clone git@github.com:CMINI777/documents.git
 
-1. 全局安装
+# 2. add dependency
+yarn add 
+# OR npm i
 
-```
-npm install -g vuepress
-```
-
-2. 创建一个文件夹作为目录
-
-```
-mkdir vuepress-blog
-```
-
-3. 项目初始化（初始化后会生成一个package.json文件）
+# 3. run
+yarn docs:dev 
+# OR npm run docs:dev
 
 ```
-cd vuepress-blog
-npm init -y
-```
-
-4. 在当前目录中创建一个docs目录
-
-```
-mkdir docs
-```
-
-5. 首页内容书写(采用默认主题)
-
-```
----
-home: true
-heroImage: /img/logo.png
-actionText: 爱我中华 →
-actionLink: /guide/
-features:
-- title: 知行
-  details: 心有所愿，行而成力。人生行知有力的时光不过二三十年，在行知有力的时间段明确好方向跨过每一个障碍，知行合一，大气大为，努力做最好的自己！
-- title: 励练
-  details: 能长成参天大树的一定是经历过无数次的风霜雨雪的励练。男人，就要风吹不动，浪打不摇！
-- title: 境界
-  details: 人在知道自己的所作所为后就会有明确的志向，然后才会内心宁静，内心宁静才会泰然安稳，泰然安稳才能行事思虑周祥，思虑周祥才能达到最好的人生境界。
-footer: © Copyright 2019 MiniCHN - All Rights Reserved
----
-```
-
-二、 核心配置
-
-1. 在docs目录下创建.vuepress目录
-
-```
-cd docs
-mkdir .vuepress
-# 主要存放配置
-```
-
-2. 新建总配置文件config.js
-
-```
-cd .vuepress
-touch config.js
-# config是整个项目的核心配置文件，所有菜单、栏目相关的配置均配置在该模块中
-```
-
-3. 在config.js中加入内容
-
-```
-module.exports = {
-    title: 'MiniCHN',
-    description: '迷你中华',
-    dest: './dist',
-    port: '7777',
-	base: '/documents/',
-    head: [
-        ['link', {rel: 'icon', href: '/img/favicon.ico'}],
-		['link', {rel: 'stylesheet', href: '/css/style.css'}]
-    ],
-    markdown: {
-        lineNumbers: true
-    },
-    themeConfig: {
-        nav: require("./nav.js"),
-        sidebar: require("./sidebar.js"),
-        sidebarDepth: 2,
-        lastUpdated: 'Last Updated',
-        searchMaxSuggestoins: 10,
-        serviceWorker: {
-            updatePopup: {
-                message: "有新的内容.",
-                buttonText: '更新'
-            }
-        },
-        editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页 ！'
-    }
-}
-```
-
-4. 导航栏配置
-
-```
-# (1) 在.vuepress目录下创建一个nav.js
-touch nav.js
-# (2) 编辑 nav.js
-module.exports = [
-    {
-        text: '指南', link: '/guide/'
-    },
-    {
-        text: '宝典', 
-		items: [
-            {text: '初级开发篇', link: '/baodian/zero/'},
-            {text: '中高进阶篇', link: '/baodian/high/'},
-        ]
-    },
-    {
-        text: '个人',
-        items: [
-			{
-                text: 'Git',
-				items: [
-					{text: 'Gitee', link: 'https://gitee.com/CMINI777'},
-					{text: 'Github', link: 'https://github.com/CMINI777'}
-				]
-            },
-			{
-                text: '展示',
-				items: [
-					{text: 'Hexo博客', link: 'https://cmini777.gitee.io/'}
-				]
-            }
-        ]
-    }
-]
-# (3) 需要在docs目录下创建nav.js配置中所需要的目录
-eg：‘指南’对应的是/guide/，则需要在docs目录下创建一个guide目录
-```
-
-5. 侧边栏配置
-
-```
-# (1) 在.vuepress目录下创建一个sidebar.js
-touch sidebar.js
-# (2) 编辑 sidebar.js
-module.exports = {
-	'/guide/': require('../guide/sidebar'),
-
-	'/baodian/zero': require('../baodian/zero/sidebar'),
-	'/baodian/high': require('../baodian/high/sidebar'),
-}	
-# (3) 需要在require引用的sidebar.js中配置所需参数
-eg：‘指南’对应的/guide/sidebar.js
-module.exports = [
-		{
-		  title:'新手指南',
-		  collapsable: true,
-		  children:[
-			'/guide/notes/one',
-		  ]
-		},
-		{
-		  title:'更上一层楼',
-		  collapsable: true,
-		  children:[
-			'/guide/notes/two',
-		  ]
-		}
-	]
-	
---参数解析--
-title：表示侧边栏大标题
-collapsable：是否可收缩
-children：具体的.md文件，这里无需指定后缀
-
-```
-
-6. 静态资源配置
-
-vuepress程序默认的图片目录是/docs/.vuepress/public
-
-```
-# (1) 在.vuepress目录下创建public目录
-cd .vuepress
-mkdir public
-# (2) 在public目录下分别创建img、css、js目录，用来存放图片、样式文件、js文件
-mkdir img
-mkdir css
-mkdir js
-```
-
-7. 运行
-
-```
-vuepress dev docs
-```
-
------

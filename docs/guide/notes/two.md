@@ -21,22 +21,22 @@ yarn add -D @vuepress/plugin-pwa@next
 
 ```
 head: [
-  ['link', {rel: 'manifest', href: '/manifest.json'}]
+  ['link', {rel: 'manifest', href: '/js/manifest.json'}]
 ]
 ```
 
 manifest 范例
 ```
 {
-  "name": "HackerWeb",
-  "short_name": "HackerWeb",
-  "start_url": ".",
+  "name": "CMINI777",
+  "short_name": "CMINI777",
+  "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#fff",
-  "description": "A simply readable Hacker News app.",
+  "background_color": "#2196f3",
+  "description": "人皆可以为尧舜",
   "icons": [{
-    "src": "images/touch/homescreen48.png",
-    "sizes": "48x48",
+    "src": "/img/logo.png",
+    "sizes": "149x149",
     "type": "image/png"
   }]
 }
@@ -45,8 +45,10 @@ manifest 范例
 ### 3. 使用
 
 更新弹出窗口
-```
+``` js {13,14,15,16,17,18,19,20,21}
+// - 是要删除的代码，高亮行是要增加的
 module.exports = {
+- serviceWorker: true,
   themeConfig: {
 -   serviceWorker: {
 -     updatePopup: {
@@ -55,17 +57,24 @@ module.exports = {
 -     }
 -   }
   },
-+  plugins: {
-+   '@vuepress/pwa': {
-+      serviceWorker: true,
-+      updatePopup: {
-+        message: "New content is available.",
-+        buttonText: "Refresh"
-+      }
-+    }
-+ }
+
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        message: "有新的内容",
+        buttonText: "更新"
+      }
+    }
+  },
 }
 ```
+
+::: danger
+
+~~service-worker.js在build后并未生成，故该功能并未使用~~ 
+
+:::
 
 ## 二、 回到顶部插件
 

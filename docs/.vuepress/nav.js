@@ -10,19 +10,19 @@ module.exports = [
         ]
     },
     {
-        text: '个人',
+        text: '导航',
         items: [
 			{
-                text: 'Git',
+                text: '在线工具',
 				items: [
-					{text: 'Gitee', link: 'https://gitee.com/CMINI777'},
-					{text: 'Github', link: 'https://github.com/CMINI777'}
+					{text: 'shields', link: 'https://shields.io/'},
+					{text: 'cron', link: 'http://cron.qqe2.com/'}
 				]
             },
 			{
-                text: '展示',
+                text: '集大成者',
 				items: [
-					{text: 'Hexo博客', link: 'https://cmini777.gitee.io/'}
+					{text: 'IT网址导航', link: 'http://www.h-ui.net/site.shtml'}
 				]
             }
         ]
