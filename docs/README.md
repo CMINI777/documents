@@ -32,12 +32,12 @@ vuepress dev
 vuepress build
 ```
 
-::: danger
+::: warning
 
-## 关于~~文档博客~~笔记
+## 关于~~博客文档~~笔记
 
-站在巨人的肩膀上。
+站在巨人的肩上
 
-这根本不是什么文档博客，仅仅是一个个人笔记而已。
+Standing on Shoulders of Giants
 
 :::

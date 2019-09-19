@@ -20,7 +20,7 @@ module.exports = {
         searchMaxSuggestoins: 10,
         serviceWorker: {
             updatePopup: {
-                message: "有新的内容.",
+                message: "有新的内容",
                 buttonText: '更新'
             }
         },
