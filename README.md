@@ -14,13 +14,17 @@ Welcome to the [CMINI777](https://cmini777.github.io/documents/)
 
 ## Usage
 
+The code still has 3 seconds to get to the battlefield.
+
+As Easy as 1, 2, 3
+
 ```bash
 # 1. clone
 git clone git@github.com:CMINI777/documents.git
 
-# 2. add dependency
+# 2. install dependencies
 yarn add 
-# OR npm i
+# OR npm install
 
 # 3. run
 yarn docs:dev 

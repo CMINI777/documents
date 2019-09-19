@@ -18,18 +18,16 @@ Welcome to the CMINI777. The code still has 3 seconds to get to the battlefield.
 
 As Easy as 1, 2, 3
 
-# install
-yarn global add vuepress
-# OR npm install -g vuepress
+# 1. clone
+git clone git@github.com:CMINI777/documents.git
 
-# create a markdown file
-echo '# Hello VuePress' > README.md
+# 2. install dependencies
+yarn add 
+# OR npm install
 
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
+# 3. run
+yarn docs:dev 
+# OR npm run docs:dev
 ```
 
 ::: warning
