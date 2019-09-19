@@ -7,6 +7,9 @@
 </div>
 
 ## Description
+
+This is a documentation blog built on VuePress.
+
 Welcome to the [CMINI777](https://cmini777.github.io/documents/)
 
 ## Usage
