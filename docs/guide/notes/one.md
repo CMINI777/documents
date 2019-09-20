@@ -66,7 +66,7 @@ touch config.js
 
 ### 3. 在config.js中加入内容
 
-```
+``` js
 module.exports = {
     title: 'MiniCHN',
     description: '迷你中华',
@@ -100,7 +100,7 @@ module.exports = {
 
 ### 4. 导航栏配置
 
-```
+``` js
 # (1) 在.vuepress目录下创建一个nav.js
 touch nav.js
 # (2) 编辑 nav.js
@@ -135,12 +135,12 @@ module.exports = [
     }
 ]
 # (3) 需要在docs目录下创建nav.js配置中所需要的目录
-eg：‘指南’对应的是/guide/，则需要在docs目录下创建一个guide目录
+# eg：‘指南’对应的是/guide/，则需要在docs目录下创建一个guide目录
 ```
 
 ### 5. 侧边栏配置
 
-```
+``` js
 # (1) 在.vuepress目录下创建一个sidebar.js
 touch sidebar.js
 # (2) 编辑 sidebar.js
@@ -151,7 +151,7 @@ module.exports = {
 	'/baodian/high': require('../baodian/high/sidebar'),
 }	
 # (3) 需要在require引用的sidebar.js中配置所需参数
-eg：‘指南’对应的/guide/sidebar.js
+# eg：‘指南’对应的/guide/sidebar.js
 module.exports = [
 		{
 		  title:'新手指南',
@@ -169,16 +169,20 @@ module.exports = [
 		}
 	]
 	
---参数解析--
-title：表示侧边栏大标题
-collapsable：是否可收缩
-children：具体的.md文件，这里无需指定后缀
+# --参数解析--
+# title：表示侧边栏大标题
+# collapsable：是否可收缩
+# children：具体的.md文件，这里无需指定后缀
 
 ```
 
 ### 6. 静态资源配置
 
+::: warning
+
 vuepress程序默认的图片目录是/docs/.vuepress/public
+
+:::
 
 ```
 # (1) 在.vuepress目录下创建public目录

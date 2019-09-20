@@ -32,8 +32,6 @@ yarn docs:dev
 
 ::: warning
 
-## 关于~~博客文档~~笔记
-
 站在巨人的肩上
 
 Standing on Shoulders of Giants
