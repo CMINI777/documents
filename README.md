@@ -1,6 +1,8 @@
-<h1 align="center">Documents Blog</h1>
+<h1 align="center">Documents</h1>
 
 <div align="center">
+
+Record of facts, thoughts.
 
 [![GitHub issues](https://img.shields.io/github/issues/CMINI777/documents)](https://github.com/CMINI777/documents/issues) [![GitHub forks](https://img.shields.io/github/forks/CMINI777/documents)](https://github.com/CMINI777/documents/network) [![GitHub stars](https://img.shields.io/github/stars/CMINI777/documents)](https://github.com/CMINI777/documents/stargazers) [![GitHub license](https://img.shields.io/github/license/CMINI777/documents)](https://github.com/CMINI777/documents/blob/master/LICENSE)
 
@@ -8,7 +10,7 @@
 
 ## Description
 
-This is a documentation blog built on VuePress.
+This is a personal note based on VuePress.
 
 Welcome to the [CMINI777](https://cmini777.github.io/documents/)
 

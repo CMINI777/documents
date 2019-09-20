@@ -45,8 +45,8 @@ manifest 范例
 ### 3. 使用
 
 更新弹出窗口
-``` js {13,14,15,16,17,18,19,20,21}
-// - 是要删除的代码，高亮行是要增加的
+``` js {1,13,14,15,16,17,18,19,20,21}
+// - 是要删除的代码，高亮行是需要增加的
 module.exports = {
 - serviceWorker: true,
   themeConfig: {
@@ -96,6 +96,8 @@ module.exports = {
 ```
 ::: danger
 
-~~back-to-top不生效~~ .io 的项目只有在 master 分支 pages 才可以生效
+~~back-to-top不生效，故该功能并未使用~~ 
+
+注意：`.io` 的项目只有在 `master` 分支 pages 才可以生效
 
 :::
