@@ -4,7 +4,7 @@ module.exports = {
     dest: './dist',
     port: '7777',
     head: [
-		['meta', { name: 'keywords', content: '匠心沉淀,cmini777' }],
+		['meta', { name: 'keywords', content: '匠心沉淀,cmini,cmini777,minichn' }],
         ['link', {rel: 'icon', href: '/img/favicon.ico'}],
 		['link', {rel: 'stylesheet', href: '/css/style.css'}]
     ],

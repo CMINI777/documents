@@ -16,8 +16,6 @@ footer: © Copyright 2019 CMINI777 - All Rights Reserved
 ```
 Welcome to the CMINI777. The code still has 3 seconds to get to the battlefield.
 
-As Easy as 1, 2, 3
-
 # 1. clone
 git clone git@github.com:CMINI777/documents.git
 
