@@ -12,7 +12,7 @@ Record of facts, thoughts.
 
 This is a personal note based on VuePress.
 
-Welcome to the [CMINI777](https://cmini777.github.io/documents/)
+Welcome to the [CMINI777](https://cmini777.github.io/documents/).
 
 ## Usage
 
