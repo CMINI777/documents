@@ -1,4 +1,4 @@
-# 初始化vuepress
+# 初始化VuePress
 
 ## 一、 安装初始化
 

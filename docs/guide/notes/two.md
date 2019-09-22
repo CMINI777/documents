@@ -70,9 +70,9 @@ module.exports = {
 }
 ```
 
-::: danger
+::: danger 该功能并未实现
 
-~~service-worker.js在build后并未生成，故该功能并未使用~~ 
+~~service-worker.js在build后并未生成~~ 
 
 :::
 
@@ -94,9 +94,9 @@ module.exports = {
   }
 }
 ```
-::: danger
+::: danger 该功能并未实现
 
-~~back-to-top不生效，故该功能并未使用~~ 
+~~back-to-top不生效~~ 
 
 注意：`.io` 的项目只有在 `master` 分支 pages 才可以生效
 
