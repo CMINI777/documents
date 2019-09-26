@@ -8,7 +8,7 @@ module.exports = [
 		  ]
 		},
 		{
-		  title:'归档',
+		  title:'文件归档',
 		  collapsable: true,
 		  children:[
 
@@ -16,7 +16,7 @@ module.exports = [
 		  ]
 		},
 		{
-		  title:'日志',
+		  title:'日志记录',
 		  collapsable: true,
 		  children:[
 
