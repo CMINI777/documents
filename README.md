@@ -12,7 +12,7 @@ Record of facts, learning experiences, or thoughts.
 
 This is a personal note based on VuePress.
 
-Welcome to the [CMINI777](https://cmini.minichn.com).
+Welcome to the [CMINI777](https://cmini777.github.io/documents).
 
 ## Usage
 

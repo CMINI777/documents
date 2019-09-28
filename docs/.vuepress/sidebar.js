@@ -1,7 +1,5 @@
 module.exports = {
 	'/guide/': require('../guide/sidebar'),
-
-	'/thoughts/': require('../thoughts/sidebar'),
 	
 	'/learnNotes/computerBasics/algorithm': require('../learnNotes/computerBasics/algorithm/sidebar'),
     '/learnNotes/computerBasics/OS': require('../learnNotes/computerBasics/OS/sidebar'),

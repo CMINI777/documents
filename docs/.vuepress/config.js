@@ -3,6 +3,7 @@ module.exports = {
     description: '人皆可以为尧舜',
     dest: './dist',
     port: '7777',
+	base: '/documents/',
     head: [
 		['meta', { name: 'keywords', content: '匠心沉淀,cmini,cmini777,minichn' }],
         ['link', {rel: 'icon', href: '/img/favicon.ico'}],

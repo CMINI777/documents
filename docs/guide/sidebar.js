@@ -8,6 +8,13 @@ module.exports = [
 		  ]
 		},
 		{
+		  title:'浮想联翩',
+		  collapsable: true,
+		  children:[
+			'/guide/thoughts/01',
+		  ]
+		},
+		{
 		  title:'文件归档',
 		  collapsable: true,
 		  children:[

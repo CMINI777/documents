@@ -2,9 +2,6 @@ module.exports = [
     {
         text: '指南', link: '/guide/'
     },
-	{
-        text: '感想', link: '/thoughts/'
-    },
     {
         text: '学习笔记', 
         items: [
