@@ -7,12 +7,4 @@ module.exports = [
 			'/guide/notes/02',
 		  ]
 		},
-		{
-		  title:'归档日志',
-		  collapsable: true,
-		  children:[
-			'/guide/archiveLog/archive',
-			'/guide/archiveLog/log',
-		  ]
-		},
 	]
