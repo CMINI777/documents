@@ -3,15 +3,7 @@ module.exports = [
         text: '指南', link: '/guide/'
     },
     {
-        text: '学习笔记', 
-        items: [
-			{
-                text: '计算机基础',
-				items: [
-					{text: '数据结构与算法', link: '/learnNotes/computerBasics/algorithm/'},            
-				]
-            },
-        ]
+        text: '学习笔记', link: '/learnNotes/'
     },
     {
         text: '资源共享',

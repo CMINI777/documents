@@ -8,26 +8,11 @@ module.exports = [
 		  ]
 		},
 		{
-		  title:'浮想联翩',
+		  title:'归档日志',
 		  collapsable: true,
 		  children:[
-			'/guide/thoughts/01',
-		  ]
-		},
-		{
-		  title:'文件归档',
-		  collapsable: true,
-		  children:[
-
-			'/guide/archives/2019',
-		  ]
-		},
-		{
-		  title:'日志记录',
-		  collapsable: true,
-		  children:[
-
-			'/guide/log/2019',
+			'/guide/archiveLog/archive',
+			'/guide/archiveLog/log',
 		  ]
 		},
 	]
